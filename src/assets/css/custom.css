@@ -1,0 +1,39 @@
+*::-webkit-scrollbar {
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.dr-login-container {
+  width: 100%;
+  max-width: 500px;
+  height: 80vh;
+  max-height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dr-login-card {
+  width: 80%;
+}
+
+.dr-loader-container {
+  width: 100%;
+  min-height: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+  .dr-login-card {
+    width: 100%;
+  }
+}
