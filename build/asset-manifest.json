@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b1c9acc.css",
+    "main.js": "/static/js/main.6898f3cd.js",
+    "static/media/logo-darkor-removebg.png": "/static/media/logo-darkor-removebg.2b75e5d437f18c8acf5e.png",
+    "index.html": "/index.html",
+    "main.7b1c9acc.css.map": "/static/css/main.7b1c9acc.css.map",
+    "main.6898f3cd.js.map": "/static/js/main.6898f3cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b1c9acc.css",
+    "static/js/main.6898f3cd.js"
+  ]
+}
