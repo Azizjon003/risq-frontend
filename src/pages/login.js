@@ -46,16 +46,8 @@ const Login = () => {
       setLoading(false);
       navigate(from, { replace: true });
     } catch (error) {
-      if (!error?.response?.data?.success) {
-        setToggle(true);
-        if (error?.response?.data?.data?.[0]?.msg) {
-          setToastData(error?.response?.data?.data?.[0]?.msg);
-        } else {
-          setToastData(error?.response?.data?.error?.message);
-        }
-      } else {
-        console.log(`Unhandled Error ${error}`);
-      }
+      console.log(error);
+      setToastData("Something went wrong");
       setLoading(false);
     }
   };
