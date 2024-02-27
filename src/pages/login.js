@@ -83,7 +83,7 @@ const Login = () => {
                     <img src={Logo} alt="logo" width="100" />
                   </span>
                   <span className="app-brand-text demo text-body fw-bolder text-uppercase">
-                    NewBozor
+                    Rizq
                   </span>
                 </div>
               </div>

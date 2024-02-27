@@ -20,7 +20,7 @@ const Toast = ({ toggle, setToggle, data }) => {
       >
         <div className="toast-header">
           <img width={30} src={Logo} className="rounded me-2" alt="logo" />
-          <strong className="me-auto">NewBozor | Xabar</strong>
+          <strong className="me-auto">Rizq | Xabar</strong>
           <small>Now</small>
           <button
             type="button"

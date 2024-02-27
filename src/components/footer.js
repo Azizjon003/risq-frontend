@@ -5,12 +5,12 @@ const Footer = () => {
         <div className="mb-2 mb-md-0">
           Copyright ©<script>document.write(new Date().getFullYear());</script>,
           <a
-            href="http://newbozor.uz"
+            href="http://risq.tj"
             target="_blank"
             className="footer-link fw-bolder"
             rel="noreferrer"
           >
-            NewBozor
+            Rizq
           </a>
         </div>
         <div>

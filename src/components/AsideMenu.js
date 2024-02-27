@@ -15,7 +15,7 @@ const AsideMenu = () => {
             <img src={Logo} className="h-auto" width="50" alt="logo" />
           </span>
           <span className="app-brand-text demo menu-text text-capitalize fw-bold ms-2">
-            NewBozor
+            Rizq
           </span>
         </Link>
         <span
